@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap{
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+justify-content: end;
+
+flex-direction: column;
+background-image: url(./image/image\ 1.png);
+ 
+} 
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-color: #f0f0f0;
+
+  }
+  
+  .road {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2000px; /* Довжина дороги */
+    height: 50%;
+background-image: url(./image/Group\ 14.png);
+    will-change: transform;
+    background-color: green;
+}
+
+  
+  
+ 
+.car {
+  width: 450px;
+  height: 190px;
+  background-image: url(./image/image-removebg-preview\ 1.png);
+  background-size: cover;
+  background-position: center;
+
+
+
+
+
+ 
+ 
+}
+
+.frontLignt {
+  width: 70px;
+  height: 30px;
+  background-color: rgba(213, 213, 108, 0.845);
+  filter: blur(10px);
+  position: relative;
+  top: 98px;
+ right: 30px;
+  opacity: 0;
+  transition: 0.3s;
+
+}
+
+.backLight {
+  width: 60px;
+  height: 40px;
+  background-color: rgba(213, 108, 108, 0.845);
+  filter: blur(10px);
+  position: relative;
+  top: 78px;
+  left: 25px;
+  opacity: 0;
+  transform: 0.3s;
+}
+
+  
+  .backwheel{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 39px;
+    margin-top:  -21px;
+ 
+
+  }
+  .frontwheel img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+.backwheel img{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+  .frontwheel{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 255px;
+    margin-top: -50px;
+
+  
+  }
+
+  
+.settingWindow{
+  width: 300px;
+  height: 150px;
+  background-color: grey;
+  color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+position: fixed;
+border-radius: 7%;
+margin-bottom: 450px;
+}
+
+.settingWindow i {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+ margin: 20px;
+cursor: pointer;
+
+ 
+}
+
+
+.settingWindow h1{
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+ margin: 20px;
+ cursor: pointer;
+}
+
+.carContainer{
+  width: 460px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  top: 49%;
+   
+    
+    
+}
+  
+
+
+.driver{
+  width: 50px;
+  height: 70px;
+margin-left:  130px;;
+margin-top: 50px;
+opacity: 0;
+background-image: url(./image/image\ 1.png);
+transition: 2s;
+background-color: green;
+}
+
+
+
+
+#backwheel1, #frontwheel2 {
+  width: 60px;
+  height: 60px;
+ 
+  margin: 100px auto;
+  position: absolute;
+  background-image: url(./image/завантаження-removebg-preview\ \(3\).png);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+#frontwheel2{
+  margin-left: 250px;
+  margin-top: -12px;
+}
+
+#backwheel1{
+  margin-left: 34px;
+  margin-top: -12px;
+}
+
+.boxp{
+  width: 200px;
+  height: 100px;
+  background-image: url(./image/Group\ 15\ \(1\).png);
+ display: flex;
+ align-items: center;
+position: fixed;
+ border-radius: 7%;
+margin-bottom: 600px;
+
+}
+
+.ruchka{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 16px;
+  margin-left: 38px;
+  position: absolute;
+
+}
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Запобігаємо появі смуг прокрутки */
+}
