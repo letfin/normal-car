@@ -1,3 +1,3 @@
 # normal-car
-#movment = A D
-#transfers = arow
+# movment = A D
+#  transfers = arow
